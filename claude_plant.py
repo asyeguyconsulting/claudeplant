@@ -55,7 +55,7 @@ Enter the name of the plant to retrieve care information from the PDF and get de
 plant_name = st.text_input("Enter the plant name:")
 
 # URL of the PDF
-pdf_url = "https://www.bybrittanygoldwyn.com/wp-content/uploads/2022/11/Easy-Houseplant-Care-Guide.pdf"# "https://www.kellogggarden.com/wp-content/uploads/2020/05/Monthly-Flower-Gardening-Guide.pdf"
+pdf_url =  "https://www.kellogggarden.com/wp-content/uploads/2020/05/Monthly-Flower-Gardening-Guide.pdf"
 
 # Extract text from the PDF
 pdf_text = extract_pdf_text(pdf_url)
