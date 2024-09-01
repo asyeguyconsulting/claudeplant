@@ -1,2 +1,3 @@
-pyautogen["anthropic"]
+streamlit
+anthropic
 PyPDF2
