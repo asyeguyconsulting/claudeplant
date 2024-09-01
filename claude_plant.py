@@ -84,8 +84,8 @@ if st.button("Get Plant Care Information"):
                     ]
                 )
                 # Display the response from Claude AI
-                useful_text = message['content'][0]['text']
-                # st.text_area("Plant Care Instructions", value=message, height=300)
+                # useful_text = message['content'][0]['text']
+                st.text_area("Plant Care Instructions", value=message, height=300)
                 # st.markdown(message)
             except Exception as e:
                 st.error(f"An error occurred while calling Claude AI: {e}")
