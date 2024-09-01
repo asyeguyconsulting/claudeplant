@@ -5,7 +5,7 @@ import PyPDF2
 import anthropic
 
 # Initialize the Claude AI client with the provided API key
-api_key = st.sectrets['api_key']
+api_key = st.secrets['api_key']
 client = anthropic.Anthropic(api_key=api_key)
 
 # Function to extract text from an online PDF
